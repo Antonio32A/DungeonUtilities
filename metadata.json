@@ -1,0 +1,7 @@
+{
+  "name":"DungeonUtilities",
+  "author": "Antonio32A",
+  "entry": "loader.js",
+  "requires": ["SettingsManager", "PersistentData"],
+  "version": "0.9.9"
+}

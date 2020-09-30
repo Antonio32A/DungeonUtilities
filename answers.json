@@ -1,0 +1,50 @@
+[
+    {
+        "statements":[
+            "[NPC] ${name}: &rMy chest doesn't have the reward. At least one of the others is telling the truth${*}",
+            "[NPC] ${name}: &rMy chest doesn't have the reward. We are all telling the truth${*}",
+            "[NPC] ${name}: &rOne of the others is lying${*}"
+        ],
+        "answer": 1
+    },
+    {
+        "statements":[
+            "[NPC] ${name}: &rThe reward isn't in any of our chests${*}",
+            "[NPC] ${name}: &rThe reward is in my chest${*}",
+            "[NPC] ${name}: &rThe reward is not in my chest. They are both lying${*}"
+        ],
+        "answer": 0
+    },
+    {
+        "statements":[
+            "[NPC] ${name}: &rThe reward is not in my chest!",
+            "[NPC] ${name}: &rThey are both telling the truth. The reward isn't in ${target}'s &rchest${*}",
+            "[NPC] ${name}: &rOne of us is telling the truth${*}"
+        ],
+        "answer": 0
+    },
+    {
+        "statements":[
+            "[NPC] ${name}: &rWe are all telling the truth${*}",
+            "[NPC] ${name}: &rAt least one of them is lying, and the reward is not in ${target}'s &rchest${*}",
+            "[NPC] ${name}: &r${target}is telling the truth and the reward is in his chest${*}"
+        ],
+        "answer": 1
+    },
+    {
+        "statements":[
+            "[NPC] ${name}: &rMy chest has the reward${*}",
+            "[NPC] ${name}: ${target}is telling the truth${*}",
+            "[NPC] ${name}: &rBoth of them are telling the truth. Also,${target}has the reward in their chest${*}"
+        ],
+        "answer": 2
+    },
+    {
+        "statements":[
+            "[NPC] ${name}: &rMy chest has the reward and I'm telling the truth${*}",
+            "[NPC] ${name}: &rThey are both telling the truth, the reward is in${target}'s &rchest${*}",
+            "[NPC] ${name}: &rThey are both lying, the reward is in my chest${*}"
+        ],
+        "answer": 0
+    }
+]
