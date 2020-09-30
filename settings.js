@@ -3,7 +3,7 @@ import { Setting, SettingsObject } from "../SettingsManager/SettingsManager";
 
 class Settings {
     constructor() {
-        settings.setCommand("dungeon").setSize(500, 200);
+        settings.setCommand("dungeon").setSize(624, 278);
         Setting.register(settings);
     }
 }
@@ -23,6 +23,8 @@ const settings = new SettingsObject(
                 new Setting.Button("&dVals", "Map rendering fixes and the riddle solver.", () => {}),
                 new Setting.Button("&6DJtheRedstoner", "Map scale and the map background feature.", () => {}),
                 new Setting.Button("&cDebuggings", "Help with the Better Glowing Effect feature.", () => {}),
+                new Setting.Button("&3SirDesco", "Trivia Room Solver.", () => {}),
+                new Setting.Button("&2El_Oxo", "Help with the GitHub management.", () => {}),
                 new Setting.Button("", "", () => {}),
                 new Setting.Button("&dNote: &eAll mods are &cuse at your own risk&e.", "&cWARNING", () => {
                     ChatLib.chat(
@@ -36,7 +38,16 @@ const settings = new SettingsObject(
                         "&cIf you ever decide to uninstall the mod, do /ct delete DungeonUtilities"
                     );
                 }),
-                new Setting.Button("&eDiscord Support Server: &9https://discord.gg/knjSZSC", "", () => {})
+                new Setting.Button("", "", () => {}),
+                new Setting.Button("&eDiscord Support Server:", "&9https://discord.gg/knjSZSC", () => {
+                    java.awt.Desktop.getDesktop().browse(new java.net.URI("https://discord.gg/knjSZSC"));
+                }),
+                new Setting.Button("&ePatreon:", "&9https://www.patreon.com/dungeonutilities", () => {
+                    java.awt.Desktop.getDesktop().browse(new java.net.URI("https://www.patreon.com/dungeonutilities"));
+                }),
+                new Setting.Button("&eGitHub:", "&9https://github.com/Antonio32A/DungeonUtilities", () => {
+                    java.awt.Desktop.getDesktop().browse(new java.net.URI("https://github.com/Antonio32A/DungeonUtilities"));
+                })
             ]
         },
         {
@@ -100,6 +111,13 @@ const settings = new SettingsObject(
                 new Setting.Toggle("Enabled", false),
                 new Setting.Slider("X", 100, 0, Renderer.screen.getWidth(), 0),
                 new Setting.Slider("Y", 200, 0, Renderer.screen.getHeight(), 0)
+            ]
+        },
+        {
+            name: "Trivia Solver",
+            settings: [
+                new Setting.Button("", "Solves the trivia.", () => {}),
+                new Setting.Toggle("Enabled", false)
             ]
         }
     ]
