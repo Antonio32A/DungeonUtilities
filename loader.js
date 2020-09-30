@@ -7,7 +7,8 @@ const features = [
     "partyKicker",
     "riddleSolver",
     "betterGlowingEffect",
-    "lootTracker"
+    "lootTracker",
+	"triviaSolver"
 ];
 
 new Settings();
