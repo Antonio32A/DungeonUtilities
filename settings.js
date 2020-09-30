@@ -101,6 +101,13 @@ const settings = new SettingsObject(
                 new Setting.Slider("X", 100, 0, Renderer.screen.getWidth(), 0),
                 new Setting.Slider("Y", 200, 0, Renderer.screen.getHeight(), 0)
             ]
+        },
+        {
+            name: "Trivia Solver",
+            settings: [
+                new Setting.Button("", "Solves the trivia.", () => {}),
+                new Setting.Toggle("Enabled", false)
+            ]
         }
     ]
 );
