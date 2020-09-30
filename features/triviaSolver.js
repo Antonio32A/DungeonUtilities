@@ -9,10 +9,7 @@ class TriviaSolver {
     }
 
 run() {
-
     let trivia = JSON.parse(FileLib.read("DungeonUtilities", "trivia.json"));
-
-
     trivia.forEach(element => {
             register("chat", () => {
                 if (!settings.getSetting("Trivia Solver", "Enabled")) return;
