@@ -1,3 +1,5 @@
+import { settings } from "../settings";
+
 const inDungeons = () => {
     if(!(Scoreboard.getTitle().trim() != "" && Scoreboard.getLines().length > 0)) {
         return;
