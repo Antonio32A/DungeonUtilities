@@ -8,7 +8,7 @@ const features = [
     "riddleSolver",
     "betterGlowingEffect",
     "lootTracker",
-    "triviaSolver"
+    "miniAlert"
 ];
 
 new Settings();
