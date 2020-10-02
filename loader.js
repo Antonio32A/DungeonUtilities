@@ -8,6 +8,7 @@ const features = [
     "riddleSolver",
     "betterGlowingEffect",
     "lootTracker",
+    "triviaSolver",
     "miniAlert"
 ];
 
