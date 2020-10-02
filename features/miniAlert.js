@@ -3,20 +3,20 @@ const inDungeons = () => {
         return;
     }
     Scoreboard.getLines(false).forEach(line => {
-        if (line.getName().includes('§cThe Cata') && line.getName().includes('mbs §8('));
+        if (line.getName().includes("§cThe Cata") && line.getName().includes("mbs §8("));
         return true;
     })
     return false;
 }
 
-class miniAlert {
+class miniBossAlerts {
     constructor() {
         this.name = "MiniBoss Alerts"
         this.triggers = {
             "renderWorld": [{
                 "func": this.renderWorld,
                 "criteria": null
-            }],
+            }]
         }
 
     }
