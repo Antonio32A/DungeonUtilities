@@ -1,138 +1,275 @@
 [
+
     {
-        "statements": "Which villager in the Village gives you a Rogue Sword?",
-        "answer": "Jamie"
-    },
-	{
-        "statements": "What is the name of the Painter in the Hub?",
-        "answer": "Marco"
-    },
-	{
-        "statements": "How many Fairy Souls are there in Hub?",
-        "answer": "79 Fairy Souls"
-    },
-	{
-        "statements": "How many Fairy Souls are there in The End?",
-        "answer": "12 Fairy Souls"
-    },
-	{
-        "statements": "How many Fairy Souls are there in Blazing Fortress?",
-        "answer": "19 Fairy Souls"
-    },
-	{
-        "statements": "How many Fairy Souls are there in The Park?",
-        "answer": "11 Fairy Souls"
-    },
-	{
-        "statements": "How many Fairy Souls are there in Dungeon Hub?",
-        "answer": "7 Fairy Souls"
-    },
-	{
-        "statements": "How many Fairy Souls are there in The Barn?",
-        "answer": "7 Fairy Souls"
-    },
-	{
-        "statements": "How many Fairy Souls are there in Mushroom Desert?",
-        "answer": "8 Fairy Souls"
-    },
-	{
-        "statements": "How many Fairy Souls are there in Deep Cavern?",
-        "answer": "21 Fairy Souls"
-    },
-	{
-        "statements": "How many Fairy Souls are there in Spider's Den?",
-        "answer": "17 Fairy Souls"
-    },
-	{
-        "statements": "How many Fairy Souls are there in Gold Mine?",
-        "answer": "12 Fairy Souls"
-    },
-	{
-        "statements": "How many Fairy Souls are there in Jerry's Workshop?",
-        "answer": "5 Fairy Souls"
-    },
-	{
-        "statements": "How many Fairy Souls are there?",
-        "answer": "209 Fairy Souls"
-    },
-	{
-        "statements": "How many total Fairy Souls are there?",
-        "answer": "209 Fairy Souls"
-    },
-	{
-        "statements":"What is the status of The Watcher?",
+
+        "statements": "What is the status of The Watcher?",
+
         "answer": "Stalker"
+
     },
+
 	{
+
         "statements": "What is the status of Bonzo?",
+
         "answer": "New Necromancer"
+
     },
+
 	{
+
         "statements": "What is the status of Scarf?",
+
         "answer": "Apprentice Necromancer"
+
     },
-	{
+
+    {
+
         "statements": "What is the status of The Professor?",
+
         "answer": "Professor"
+
     },
-	{
+
+    {
+
         "statements": "What is the status of Thorn?",
+
         "answer": "Shaman Necromancer"
+
     },
-	{
+
+    {
+
         "statements": "What is the status of Livid?",
+
         "answer": "Master Necromancer"
+
     },
-	{
+
+    {
+
         "statements": "What is the status of Sadan?",
+
         "answer": "Necromancer Lord"
+
     },
-	{
+
+    {
+
         "statements": "What is the status of Maxor?",
+
         "answer": "Young Wither"
+
     },
-	{
+
+    {
+
         "statements": "What is the status of Goldor?",
+
         "answer": "Wither Soldier"
+
     },
-	{
+
+    {
+
         "statements": "What is the status of Storm?",
+
         "answer": "Elementalist"
+
     },
-	{
+
+    {
+
         "statements": "What is the status of Necron?",
+
         "answer": "Wither Lord"
+
     },
-	{
+
+    {
+
+        "statements": "How many total Fairy Souls are there?",
+
+        "answer": "209 Fairy Souls"
+
+    },
+
+    {
+
+        "statements": "How many Fairy Souls are there in Spider's Den?",
+
+        "answer": "17 Fairy Souls"
+
+    },
+
+    {
+
+        "statements": "How many Fairy Souls are there in The End?",
+
+        "answer": "12 Fairy Souls"
+
+    },
+
+    {
+
+        "statements": "How many Fairy Souls are there in The Barn?",
+
+        "answer": "7 Fairy Souls"
+
+    },
+
+    {
+
+        "statements": "How many Fairy Souls are there in Mushroom Desert?",
+
+        "answer": "8 Fairy Souls"
+
+    },
+
+    {
+
+        "statements": "How many Fairy Souls are there in Blazing Fortress?",
+
+        "answer": "19 Fairy Souls"
+
+    },
+
+    {
+
+        "statements": "How many Fairy Souls are there in The Park?",
+
+        "answer": "11 Fairy Souls"
+
+    },
+
+    {
+
+        "statements": "How many Fairy Souls are there in Jerry's Workshop?",
+
+        "answer": "5 Fairy Souls"
+
+    },
+
+    {
+
+        "statements": "How many Fairy Souls are there in The Hub?",
+
+        "answer": "79 Fairy Souls"
+
+    },
+
+    {
+
+        "statements": "How many Fairy Souls are there in Deep Caverns?",
+
+        "answer": "21 Fairy Souls"
+
+    },
+
+    {
+
+        "statements": "How many Fairy Souls are there in Gold Mine?",
+
+        "answer": "12 Fairy Souls"
+
+    },
+
+    {
+
+        "statements": "How many Fairy Souls are there in Dungeon Hub?",
+
+        "answer": "7 Fairy Souls"
+
+    },
+
+    {
+
         "statements": "Which brother is on the Spider's Den?",
+
         "answer": "Rick"
+
     },
-	{
-        "statements":"Which of these enemies does not spawn in the Spider's Den?",
-        "answer": "Zombie Spider, Dashing Spooder, Broodfather, Wither Skeleton and Cave Spider"
+
+    {
+
+        "statements": "What is the name of Rick's brother?",
+
+        "answer": "Pat"
+
     },
-	{
-        "statements": "Which of these monsters only spawns at night?",
-        "answer": "Ghast, Zombie Villager"
+
+    {
+
+        "statements": "What is the name of the Painter in the Hub?",
+
+        "answer": "Marco"
+
     },
-	{
+
+    {
+
         "statements": "What is the name of the person that upgrades pets?",
+
         "answer": "Kat"
+
     },
-	{
+
+    {
+
         "statements": "What is the name of the lady of the Nether?",
+
         "answer": "Elle"
+
     },
-	{
-        "statements": "What Skyblock year is it?",
-        "answer": "Check the calendar for the answer."
+
+    {
+
+        "statements": "Which villager in the Village gives you a Rogue Sword?",
+
+        "answer": "Jamie"
+
     },
-	{
+
+    {
+
         "statements": "How many unique minions are there?",
-        "answer": "52 Minions"
+
+        "answer": "52"
+
     },
-	{
+
+    {
+
+        "statements": "Which of these enemies does not spawn in the Spider's Den?",
+
+        "answer": "Zombie Spider, Cave Spider, Broodfather, Wither Skeleton and Dashing Spooder"
+
+    },
+
+    {
+
+        "statements": "Which of these monsters only spawns at night?",
+
+        "answer": "Ghast, Zombie Villager"
+
+    },
+
+    {
+
         "statements": "Which of these is not a dragon in The End?",
-        "answer": "Booger Dragon, Boomer Dragon"
+
+        "answer": "Zoomer Dragon, Weak Dragon, Stonk Dragon, Holy Dragon, Boomer Dragon"
+
+    },
+
+    {
+
+        "statements": "What Skyblock year is it?",
+
+        "answer": "Check the calendar for the answer."
+
     }
+
 ]
