@@ -25,7 +25,6 @@ const settings = new SettingsObject(
                 new Setting.Button("&cDebuggings", "Help with the Better Glowing Effect feature.", () => {}),
                 new Setting.Button("&3SirDesco", "Trivia Room Solver.", () => {}),
                 new Setting.Button("&2El_Oxo", "Help with the GitHub management.", () => {}),
-                new Setting.Button("&amisterdepth", "MiniBoss Alerts.", () => {}),
                 new Setting.Button("", "", () => {}),
                 new Setting.Button("&dNote: &eAll mods are &cuse at your own risk&e.", "&cWARNING", () => {
                     ChatLib.chat(
