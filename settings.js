@@ -119,13 +119,6 @@ const settings = new SettingsObject(
                 new Setting.Button("", "Solves the trivia.", () => {}),
                 new Setting.Toggle("Enabled", false)
             ]
-        },
-        {
-            name: "MiniBoss Alerts",
-            settings: [
-                new Setting.Button("", "&eAlerts you when a MiniBoss is near.", () => {}),
-                new Setting.Toggle("Enabled", false),
-            ]
         }
     ]
 );
