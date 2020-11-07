@@ -65,26 +65,18 @@ const settings = new SettingsObject(
             ]
         },
         {
-            name: "Blaze Solver",
+            name: "Map",
             settings: [
-                new Setting.Button("", "Tells you which blaze to hit in the blaze puzzle.", () => {}),
-                new Setting.Toggle("Enabled", false)
+                new Setting.Button("", "Shows the dungeon map on your screen.", () => {}),
+                new Setting.Toggle("Enabled", true),
+                new Setting.Slider("X", 300, 0, Renderer.screen.getWidth(), 0),
+                new Setting.Slider("Y", 10, 0, Renderer.screen.getHeight(), 0),
+                new Setting.Slider("Scale", 100, 0, 500, 0),
+                new Setting.Toggle("Cache Map Data", true),
+                new Setting.Toggle("Draw Background", false)
             ]
         },
-        {
-            name: "Riddle Solver",
-            settings: [
-                new Setting.Button("", "Solves the 3 man riddles.", () => {}),
-                new Setting.Toggle("Enabled", false)
-            ]
-        },
-        {
-            name: "Trivia Solver",
-            settings: [
-                new Setting.Button("", "Solves the trivia.", () => {}),
-                new Setting.Toggle("Enabled", false)
-            ]
-        },
+        
         {
             name: "Health Notify",
             settings: [
@@ -109,17 +101,26 @@ const settings = new SettingsObject(
             ]
         },
         {
-            name: "Map",
+            name: "Blaze Solver",
             settings: [
-                new Setting.Button("", "Shows the dungeon map on your screen.", () => {}),
-                new Setting.Toggle("Enabled", true),
-                new Setting.Slider("X", 300, 0, Renderer.screen.getWidth(), 0),
-                new Setting.Slider("Y", 10, 0, Renderer.screen.getHeight(), 0),
-                new Setting.Slider("Scale", 100, 0, 500, 0),
-                new Setting.Toggle("Cache Map Data", true),
-                new Setting.Toggle("Draw Background", false)
+                new Setting.Button("", "Tells you which blaze to hit in the blaze puzzle.", () => {}),
+                new Setting.Toggle("Enabled", false)
             ]
         },
+        {
+            name: "Riddle Solver",
+            settings: [
+                new Setting.Button("", "Solves the 3 man riddles.", () => {}),
+                new Setting.Toggle("Enabled", false)
+            ]
+        },
+        {
+            name: "Trivia Solver",
+            settings: [
+                new Setting.Button("", "Solves the trivia.", () => {}),
+                new Setting.Toggle("Enabled", false)
+            ]
+        }
     ]
 );
 
