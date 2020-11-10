@@ -2,9 +2,9 @@ const GlStateManager = Java.type("net.minecraft.client.renderer.GlStateManager")
 const GL11 = Java.type("org.lwjgl.opengl.GL11");
 
 
-class BetterGlowingEffect {
+class GlowingEffect {
     constructor() {
-        this.name = "Better Glowing Effect";
+        this.name = "Glowing Effect";
         this.triggers = {
             "renderWorld": [{
                 "func": this.renderWorld,
@@ -140,4 +140,4 @@ const drawBox = (entity, red, green, blue, lineWidth, width, height, partialTick
     GL11.glDisable(GL11.GL_BLEND);
 };
 
-module.exports = { Feature: BetterGlowingEffect, drawBox }
+module.exports = { Feature: GlowingEffect, drawBox }

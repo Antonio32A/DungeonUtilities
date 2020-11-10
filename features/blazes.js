@@ -1,9 +1,9 @@
-import { drawBox } from "./betterGlowingEffect";
+import { drawBox } from "./glowingEffect";
 
 
-class BlazeSolver {
+class Blazes {
     constructor() {
-        this.name = "Blaze Solver";
+        this.name = "Blazes";
         this.triggers = {"renderWorld": [{"func": this.renderWorld, "criteria": null}]};
     }
 
@@ -51,4 +51,4 @@ class BlazeSolver {
     }
 }
 
-module.exports = { Feature: BlazeSolver }
+module.exports = { Feature: Blazes }
