@@ -23,7 +23,7 @@ const settings = new SettingsObject(
                 new Setting.Button("&dVals", "Map rendering fixes and the riddle solver.", () => {}),
                 new Setting.Button("&6DJtheRedstoner", "Map scale and the map background feature.", () => {}),
                 new Setting.Button("&cDebuggings", "Help with the Better Glowing Effect feature.", () => {}),
-                new Setting.Button("&3SirDesco", "Trivia Room Solver.", () => {}),
+                new Setting.Button("&3SirDesco", "Trivia room solver, Livid detector, command shortcuts.", () => {}),
                 new Setting.Button("&2El_Oxo", "Help with the GitHub management.", () => {}),
                 new Setting.Button("", "", () => {}),
                 new Setting.Button("&dNote: &eAll mods are &cuse at your own risk&e.", "&cWARNING", () => {
@@ -85,7 +85,7 @@ const settings = new SettingsObject(
             ]
         },
         {
-            name: "Better Glowing Effect",
+            name: "Glowing Effect",
             settings: [
                 new Setting.Button("", "Adds a glowing effect similar to 1.9.", () => {}),
                 new Setting.Toggle("Enabled", false)
@@ -101,24 +101,40 @@ const settings = new SettingsObject(
             ]
         },
         {
-            name: "Blaze Solver",
+            name: "Blazes",
             settings: [
                 new Setting.Button("", "Tells you which blaze to hit in the blaze puzzle.", () => {}),
                 new Setting.Toggle("Enabled", false)
             ]
         },
         {
-            name: "Riddle Solver",
+            name: "Riddles",
             settings: [
                 new Setting.Button("", "Solves the 3 man riddles.", () => {}),
                 new Setting.Toggle("Enabled", false)
             ]
         },
         {
-            name: "Trivia Solver",
+            name: "Trivia",
             settings: [
                 new Setting.Button("", "Solves the trivia.", () => {}),
                 new Setting.Toggle("Enabled", false)
+            ]
+        },
+        {
+            name: "Livid Detector",
+            settings: [
+                new Setting.Button("", "Tells you which livid is the real one.", () => {}),
+                new Setting.Toggle("Enabled", false)
+            ]
+        },
+        {
+            name: "Commands",
+            settings: [
+                new Setting.Button("", "Commands for different utilities.", () => {}),
+                new Setting.TextInput("Shortcut for /warp dungeon_hub. Default: /dung", "dung"),
+                new Setting.TextInput("Shortcut for disband and reinvite. Default: /reparty", "reparty"),
+                new Setting.Button("&cNOTE: You need to /ct load once you change any of these options.", "")
             ]
         }
     ]
