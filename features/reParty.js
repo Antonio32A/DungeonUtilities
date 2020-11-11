@@ -25,7 +25,8 @@ class ReParty {
             if (shouldReparty) {
                 switch (type) {
                     case "Leader":
-                        if (ChatLib.removeFormatting(playersArray[0]).replace(rankRegex, "").replace(" ●", "") != Player.getName()) {
+                        if (ChatLib.removeFormatting(playersArray[0]).replace(rankRegex, "")
+                            .replace(" ●", "") != Player.getName()) {
                             ChatLib.chat("&cThis feature is only available to party leaders.");
                             shouldReparty = false;
                         }
@@ -43,7 +44,7 @@ class ReParty {
                         });
                         setTimeout(() => {ChatLib.command("party disband")}, 1000);
                         memberList.forEach(mem => {
-                            setTimeout(() => {ChatLib.command("party invite " + mem)}, 1000*(jsIsGarbageOrWhat + 1));
+                            setTimeout(() => {ChatLib.command("party invite " + mem)}, 1000 * (jsIsGarbageOrWhat + 1));
                             jsIsGarbageOrWhat++;
                         });
                         memberList = [];

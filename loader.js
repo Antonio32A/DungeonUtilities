@@ -1,4 +1,4 @@
-     { Settings, settings } from "./settings";
+import { Settings, settings } from "./settings";
 
 const features = [
     "map",
@@ -9,9 +9,9 @@ const features = [
     "glowingEffect",
     "lootTracker",
     "trivia",
-	"lividDetector",
-	"dungeonWarp",
-	"reParty"
+    "lividDetector",
+    "dungeonWarp",
+    "reParty"
 ];
 
 new Settings();
