@@ -14,7 +14,7 @@ const settings = new SettingsObject(
         {
             name: "Main",
             settings: [
-                new Setting.Button("                                        &eDungeonUtilities", "&dBETA v0.9.99", () => {}),
+                new Setting.Button("                                        &eDungeonUtilities", "&dBETA v1.0.0", () => {}),
                 new Setting.Button("&bA collection of useful utilities for dungeons!", "By &aAntonio32A", () => {}),
                 new Setting.Button("", "", () => {}),
                 new Setting.Button("                                        &dCredits", "", () => {}),
