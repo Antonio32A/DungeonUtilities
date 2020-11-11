@@ -2,13 +2,16 @@ import { Settings, settings } from "./settings";
 
 const features = [
     "map",
-    "blazeSolver",
+    "blazes",
     "healthNotify",
     "partyKicker",
-    "riddleSolver",
-    "betterGlowingEffect",
+    "riddles",
+    "glowingEffect",
     "lootTracker",
-    "triviaSolver"
+    "trivia",
+    "lividDetector",
+    "dungeonWarp",
+    "reParty"
 ];
 
 new Settings();
