@@ -28,6 +28,7 @@ class Blazes {
             hp = hp.slice(2);
             blazes[parseInt(hp)] = entity;
         });
+        
 
         if (Math.min.apply(Math, Object.keys(blazes)) === Infinity) return;
 
@@ -41,6 +42,8 @@ class Blazes {
 
     renderWorld(partialTicks) {
         if (this.biggest === undefined || this.smallest === undefined) return;
+        if (World.getAllEntities().filter(entity => entity.getName().includes("Blaze ")).length === 0) return;
+        
         let entity = this.smallest;
         Tessellator.drawString(
             "Smallest",
