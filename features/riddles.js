@@ -1,9 +1,9 @@
 import { settings } from "../settings";
 
 
-class RiddleSolver {
+class Riddles {
     constructor() {
-        this.name = "Riddle Solver";
+        this.name = "Riddles";
         this.triggers = {}
         this.run();
     }
@@ -15,7 +15,7 @@ class RiddleSolver {
             answer.statements.forEach((statement, i) => {
                 if (i === answer.answer) {
                     register("chat", (name, target) => {
-                        if (!settings.getSetting("Riddle Solver", "Enabled")) return;
+                        if (!settings.getSetting("Riddles", "Enabled")) return;
                         ChatLib.chat(`&eDungeonUtilities &8> &d${name} &ehas the blessing!`);
                     }).setCriteria(statement).setParameter("contains");
                 }
@@ -24,4 +24,4 @@ class RiddleSolver {
     }
 }
 
-module.exports = { Feature: RiddleSolver }
+module.exports = { Feature: Riddles }
