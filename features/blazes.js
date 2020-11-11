@@ -28,7 +28,6 @@ class Blazes {
             hp = hp.slice(2);
             blazes[parseInt(hp)] = entity;
         });
-        
 
         if (Math.min.apply(Math, Object.keys(blazes)) === Infinity) return;
 
