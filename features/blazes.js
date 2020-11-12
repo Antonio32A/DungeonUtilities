@@ -18,7 +18,7 @@ class Blazes {
 
     tick() {
         let blazes = {};
-        
+
         World.getAllEntities().filter(entity => entity.getName().includes("Blaze ")).forEach(entity => {
             let name = entity.getName().split(" ")[2].split("/")[1];
             if (name === undefined) {
@@ -29,7 +29,11 @@ class Blazes {
             blazes[parseInt(hp)] = entity;
         });
 
-        if (Math.min.apply(Math, Object.keys(blazes)) === Infinity) return;
+        if (Math.min.apply(Math, Object.keys(blazes)) === Infinity) {
+            this.smallest = null;
+            this.biggest = null;
+            return;
+        }
 
         let smallest = Math.min.apply(Math, Object.keys(blazes));
         smallest = blazes[smallest];
@@ -40,8 +44,10 @@ class Blazes {
     }
 
     renderWorld(partialTicks) {
-        if (this.biggest === undefined || this.smallest === undefined) return;
+        if (!this.smallest || !this.biggest) return;
+        
         let entity = this.smallest;
+
         Tessellator.drawString(
             "Smallest",
             entity.getLastX() + (entity.getX() - entity.getLastX()) * partialTicks,
