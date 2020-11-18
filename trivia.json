@@ -28,18 +28,6 @@
         "answer": "Necromancer Lord"
     },
     {
-        "statements": "What is the status of Maxor?",
-        "answer": "Young Wither"
-    },
-    {
-        "statements": "What is the status of Goldor?",
-        "answer": "Wither Soldier"
-    },
-    {
-        "statements": "What is the status of Storm?",
-        "answer": "Elementalist"
-    },
-    {
         "statements": "What is the status of Necron?",
         "answer": "Wither Lord"
     },
@@ -129,7 +117,7 @@
     },
     {
         "statements": "Which of these is not a dragon in The End?",
-        "answer": "Zoomer Dragon, Weak Dragon, Stonk Dragon, Holy Dragon, Boomer Dragon, Elder Dragon, Stable Dragon, Older Dragon, Booger Dragon"
+        "answer": "Zoomer Dragon, Weak Dragon, Stonk Dragon, Holy Dragon, Boomer Dragon, Elder Dragon, Stable Dragon, Older Dragon, Booger Dragon, Professor Dragon"
     },
     {
         "statements": "What SkyBlock year is it?",
