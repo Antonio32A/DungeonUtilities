@@ -22,14 +22,13 @@ class Trivia {
     }
 }
 
-const Year1 = 1560718500000;
-const SByear = 446400000;
+const year1 = 1560718500000;
+const sbYear = 446400000;
 
-function sbYear() {
-  let Time = new Date().getTime();
-  let Years = Time-Year1;
-  let YearNow = ((Years-(Years%SByear))/SByear)+2;
-  return YearNow;
-}
+const sbYear = () => {
+  const Time = new Date().getTime();
+  let Years = Time - Year1;
+  return ((Years - (Years % SByear)) / SByear) + 2;
+};
 
 module.exports = { Feature: Trivia }
