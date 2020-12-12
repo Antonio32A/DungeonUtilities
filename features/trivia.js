@@ -27,7 +27,7 @@ const sbYearTime = 446400000;
 
 const sbYear = () => {
   const time = new Date().getTime();
-  let years = time - year1;
+  const years = time - year1;
   return ((years - (years % sbYearTime)) / sbYearTime) + 2;
 };
 
