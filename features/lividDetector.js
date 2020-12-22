@@ -41,6 +41,7 @@ class LividDetector {
             } else {
                 realColor = "§0";
             }
+        ChatLib.chat(new Message(realLivid.getName()).setChatLineId(1274));
         } else {
             realLivid = null;
             realColor = null;
